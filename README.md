@@ -6,7 +6,7 @@ My 6th [repository](https://github.com/vmidor/weather-dashboard) on Github.
 This application was built using Javascript & JQuery, HTML, CSS [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Moment.js](https://momentjs.com/) and [OpenWeather](https://openweathermap.org). A weather dashboard helps to find forecast in your current location and the location you might go, also you have option to see weathr for the next 5 days.
 #
 ![screenshopt of the app](assets/Screenshot1.png)
-![screenshopt of the app](assets/Screenshot3.png)
+![screenshopt of the app](assets/Screenshot2.png)
 
 
 # This project has the following features:
