@@ -1,0 +1,44 @@
+
+ 
+.container-fluid {
+    position: absolute;
+    width: 100%;
+}
+
+.header {
+    height: 100px;
+    background: lightblue;
+    color: white;
+}
+
+
+.list-item {
+    background: white;
+    color: #808080;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+#uv-index {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.green {
+    background: #5fb85f
+}
+
+.yellow {
+    background: #ffff76
+}
+
+.orange {
+    background: orange
+}
+
+.red {
+    background: red;
+    color: white;
+}
+
