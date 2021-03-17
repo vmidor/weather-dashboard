@@ -18,3 +18,4 @@ A Card that provides a five day forecast
 
 # Installation
 Please visit the deployed project at: https://vmidor.github.io/weather-dashboard/.
+

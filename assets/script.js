@@ -197,17 +197,22 @@ $('#searchBtn').on('click', function () {
     var cityInput = $('#search-bar').val();
     var city = cityInput.replace(/\w\S*/g, function (txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+
     });
+    $("#search-bar").val(""); /////// clears searching bar..
 
     // CURRENT WEATHER FOR 5 DAYS
     getCurrentWeather(city);
 })
 
 // event listener for previously searched list
-$('#search-display').on('click', '.list-item', function () {
+$('#search-bar').on('click', '.list-item', function () { ////////#search bar instead of search-display
     // calls weather functions
     var city = $(this).text();
     getCurrentWeather(city)
+
+
+
 })
 
 // event listener for clear button
@@ -215,3 +220,4 @@ $('#clear-button').on('click', clearData);
 
 // loads data
 loadData();
+
